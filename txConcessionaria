@@ -10,6 +10,6 @@ int main(void){
 	
 	custocons = custofab+imposto+taxa;
 	
-	printf("Comissao distribuidor: R$ %2.f e Impostos: R$ %2.f",taxa,imposto);
-	printf("\nCusto final ao consumidor: R$ %2.f ",custocons);
+	printf("Comissao distribuidor: R$ %.2f e Impostos: R$ %.2f",taxa,imposto);
+	printf("\nCusto final ao consumidor: R$ %.2f ",custocons);
 }
