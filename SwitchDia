@@ -1,0 +1,39 @@
+#include <stdio.h>
+int main(){
+	int dia;
+	printf("Digite um valor entre 1 e 7:\n");
+	scanf("%d",&dia);
+	
+	//1-domingo | 2- segunda | 3 - terca | 4 - quarta |
+	//| 5 - quinta | 6 - Sexta |  | 7 - Sabado
+	
+	
+	
+	
+	
+	switch(dia){
+	case 1://imprime correspondente ao dia
+		printf("domingo");
+		break;
+	case 2://imprime correspondente ao dia
+		printf("segunda-feira");
+		break;
+    case 3://imprime correspondente ao dia
+		printf("terca-feira");
+		break;
+    case 4://imprime correspondente ao dia
+		printf("quarta-feira");
+		break;
+	case 5:
+		printf("quinta-feira");
+		break;
+	case 6:
+		printf("sexta-feira");
+		break;
+	case 7: 
+		printf("sabado");
+		break;
+	default: 
+		printf("dia invalido!!\n");
+	}
+}
