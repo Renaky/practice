@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void){
+	
+	double num, sqr, pot;
+	printf("Digite um numero positivo: \n");
+	scanf("%lf",&num);
+	
+	pot = num*num;
+	sqr = sqrt(num);
+	if(num>0){
+		printf("%2.lf Ao quadrado e %2.lf\n",num, pot );
+		printf("A raiz quadrada de  %2.lf e aproximadamente:  %2.lf",num,sqr);
+			}
+			else{
+			printf("O numero inserido nao e positivo");
+			}
+	
+	} 
