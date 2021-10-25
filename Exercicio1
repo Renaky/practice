@@ -1,0 +1,25 @@
+#include <stdio.h>
+	int main() {
+		float valor, valorConvert, valorDisponivelreal, valorDisponiveldolar, valorCot;
+		
+		
+		
+		printf("Digite o valor a ser convertido:\n ");{
+		scanf("%f", &valor);  //le o valor em reais a ser convertido//
+		}
+	
+		printf("Digite o valor da atual cotacao do dolar:\n ");{
+		scanf("%f", &valorCot); //le valor da cotacao do dolar
+		}
+		
+	
+		printf("Insira seu saldo disponivel\n ");{
+	
+		scanf("%f", &valorDisponivelreal); //le valor disponivel do usuario
+}
+		valorConvert= valor / valorCot;
+		valorDisponiveldolar = valorDisponivelreal/valorCot;
+	
+		printf("Valor convertido: $%.2f\n", valorConvert);
+		printf("Valor disponivel em Dolares: $%.2f\n", valorDisponiveldolar);
+}
