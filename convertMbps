@@ -22,5 +22,5 @@ switch(opcao){
 	default: 
 		printf("\nOpcao Invalida!!!\n");
 	}
-	printf("Valor Convertido: %2.f\n", ValorConvert);
+	printf("Valor Convertido: %.2f\n", ValorConvert);
 }
