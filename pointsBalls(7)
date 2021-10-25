@@ -1,0 +1,28 @@
+#include <stdio.h>
+	int main(void){
+		
+		int greenball=10, yellowball=5,whiteball=3, points;
+		int qtverde, qtamarelo, qtbranca;
+		int pointg, pointy, pointw; // resultado da soma dos pontos por cor
+		
+		printf("Quantas bolas verdes: \n");
+		scanf("%d",&qtverde);
+		printf("Quantas bolas amarelas: \n");
+		scanf("%d",&qtamarelo);
+		printf("Quantas bolas brancas: \n");
+		scanf("%d",&qtbranca);
+		
+		pointg = qtverde*greenball;   //resultado do produto da qtd de bolas em pontos
+		pointy = qtamarelo*yellowball;
+		pointw = qtamarelo*whiteball;
+		
+		printf("\nPontuacao de bolas verdes = %d",pointg);
+		printf("\nPontuacao de bolas amarelas = %d",pointy);
+		printf("\nPontuacao de bolas brancas = %d", pointw);
+		
+		points= pointg+pointy+pointw;
+		
+		printf("\n\nSua Pontuacao total e de : %d",points);
+		
+		
+	}
