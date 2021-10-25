@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+	//variaveis de calculo area cilindro  A= 2 x pi x raio x raio + altura
+	
+	float areaTotal, raio, altura;
+	printf("\nDigite o raio da base.:\n");
+	scanf("%f",&raio);
+	
+	printf("Digite a altura do cilindro: \n");
+	scanf("%f",&altura);
+	
+	areaTotal = ((2*M_PI * raio * raio)) + (2*M_PI *raio * altura);
+	
+	printf("\nA Area total do cilindro e: %2.f ",areaTotal);
+	
+	return(0);
+}
