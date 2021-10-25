@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main(){
+
+float valor, ValorConvert;
+int opcao;
+
+printf("Digite o valor a ser convertido:\n");
+scanf("%f",&valor);
+
+printf("\n1 - Converter de Mbps para Kbps\n2 - Converter de Kbps para Mbps\n");
+scanf("%d",&opcao);
+
+switch(opcao){
+	case 1://Converter Mbps em Kbps
+		ValorConvert = valor * 1000;
+		printf("Valor Convertido: %.2f\n",ValorConvert);
+		break;
+	case2://Converter Kbps em Mbps
+		ValorConvert= valor/1000;
+		printf("Valor Convertido : %.2f\n",ValorConvert);
+		break;
+	default: 
+		printf("\nOpcao Invalida!!!\n");
+	}
+	printf("Valor Convertido: %2.f\n", ValorConvert);
+}
