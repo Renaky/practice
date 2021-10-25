@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(void){
+	float custofab, custocons, imposto, taxa;
+	printf("Insira o custo de fabricacao do veiculo:\n");
+	scanf("%f",&custofab);
+	
+	imposto = (custofab*42)/100;   //Taxas em porcentagem 
+	taxa = (custofab*25)/100;
+	
+	custocons = custofab+imposto+taxa;
+	
+	printf("Comissao distribuidor: R$ %2.f e Impostos: R$ %2.f",taxa,imposto);
+	printf("\nCusto final ao consumidor: R$ %2.f ",custocons);
+}
