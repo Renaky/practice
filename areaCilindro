@@ -14,7 +14,7 @@ int main(void)
 	
 	areaTotal = ((2*M_PI * raio * raio)) + (2*M_PI *raio * altura);
 	
-	printf("\nA Area total do cilindro e: %2.f ",areaTotal);
+	printf("\nA Area total do cilindro e: %.2f ",areaTotal);
 	
 	return(0);
 }
